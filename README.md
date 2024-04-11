@@ -1,15 +1,27 @@
-# Reactivities Udemy Course repository
+# React App
 
-![Deploy status](https://github.com/trycatchlearn/Reactivities/actions/workflows/docker-push.yml/badge.svg)
+## Description
 
-This is the updated repository for the .Net 7.0, React 18 and React Router 6 version of the course refreshed as at December 2022
+This is a React test project built with .NET Core. by bahfahh
 
-View a demo of this app [here](https://reactivities-course.fly.dev).   You just need to register a user and sign in to see it in action.  
+## Architecture
 
-You can see how this app was made by checking out the Udemy course for this here (with discount)
+* Uses Mediator+CQRS
+* Uses React on the frontend
+* Uses Entity Framework on the backend
+* Uses SignalR
 
-[Udemy course](https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react/?couponCode=REGITHUB)
+## Details
 
-If you are looking for the repository for the version of this app created on .Net 6.0 and Angular v12 then this is available here:
+* Mediator+CQRS: Decouples the application's layers.
+* React: Builds the user interface.
+* Entity Framework: Stores and accesses data.
+* SignalR: Provides real-time communication between clients and servers.
 
-https://github.com/TryCatchLearn/Reactivities-v6
+## Setup and Run
+
+1. Clone this repository.
+2. Install the .NET Core SDK.
+3. Restore NuGet packages with the following command:
+
+still working....
